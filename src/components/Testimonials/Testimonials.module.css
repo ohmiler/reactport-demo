@@ -4,6 +4,7 @@
     text-align: center;
     max-width: 1170px;
     margin: 0 auto;
+    overflow: hidden;
 
     & .testi_title {
         margin-top: 55px;
@@ -41,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .testi_con {
         height: auto;
 

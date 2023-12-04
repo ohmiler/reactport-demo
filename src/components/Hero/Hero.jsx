@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 
 function Hero() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero_wrapper}>
       <div className={styles.container}>
         <div className={styles.hero_con}>
             <div className={styles.hero_info}>

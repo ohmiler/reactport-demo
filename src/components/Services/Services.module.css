@@ -2,6 +2,7 @@
     height: 600px;
     background-color: #fff;
     text-align: center;
+    overflow: hidden;
 
     & .services_title {
         margin-top: 60px;
@@ -34,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .services_con {
         height: auto;
 

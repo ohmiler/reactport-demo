@@ -1,5 +1,6 @@
-.hero {
+.hero_wrapper {
     height: 500px;
+    overflow: hidden;
 
     & .container {
         max-width: 1170px;
@@ -40,7 +41,7 @@
             width: 300px;
             height: 300px;
             border-radius: 100%;
-            background-image: url('https://images.unsplash.com/photo-1616434116710-c45ce99c1a77?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-image: url('https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
             background-size: cover;
             background-position: center;
             margin-right: 120px;
@@ -69,8 +70,8 @@
     }
 }
 
-@media screen and (max-width: 360px) {
-    .hero {
+@media screen and (max-width: 480px) {
+    .hero_wrapper {
         height: auto;
 
         & .hero_con {
