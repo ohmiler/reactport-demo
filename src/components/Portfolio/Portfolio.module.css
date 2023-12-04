@@ -46,6 +46,8 @@
             padding: 20px;
 
             & .port_items {
+                width: 100%;
+
                 & img {
                     width: 100%;
                 }
